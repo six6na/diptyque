@@ -61,3 +61,41 @@ footer {
 .legal p {
     padding: 0 5px;
 }
+
+.footercont-l {
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    justify-content: space-between;
+}
+
+.fcont-rWrap {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputbox {
+    width: 180px;
+    height: 30px;
+    display: flex;
+}
+
+#email {
+    width: 120px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    width: 60px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
