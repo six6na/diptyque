@@ -1,0 +1,45 @@
+@import url(./style.css);
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.brandImgBanner {
+    width: 100%;
+    height: 600px;
+    background: #eee;
+}
+
+.collectionSection {
+    width: 100%;
+    height: 1100px;
+    outline: 1px solid brown;
+}
+
+.collectionBanner {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.cb-img {
+    width: 910px;
+    height: 100%;
+    background: #999;
+}
+
+.cb-txt {
+    width: 530px;
+    height: 100%;
+    background: #888;
+}
+
+.collectionSlide {
+    width: 100%;
+    height: 500px;
+    background: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
