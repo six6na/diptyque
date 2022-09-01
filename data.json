@@ -1,0 +1,26 @@
+[
+    {
+        "category": "candle",
+        "name": "summer candle",
+        "price": "45", 
+        "imgUrl": "/img/Rectangle 7.png"
+    },
+    {
+        "category": "perfume",
+        "name": "summer perfume",
+        "price": "89", 
+        "imgUrl": "/img/Rectangle 7.png"
+    },
+    {
+        "category": "candle",
+        "name": "summer candle",
+        "price": "46", 
+        "imgUrl": "/img/Rectangle 7.png"
+    },
+    {
+        "category": "perfume",
+        "name": "summer perfume2",
+        "price": "93", 
+        "imgUrl": "/img/Rectangle 7.png"
+    }
+]
