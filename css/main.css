@@ -14,7 +14,7 @@ main {
 .collectionSection {
     width: 100%;
     height: 1100px;
-    outline: 1px solid brown;
+    /* outline: 1px solid brown; */
 }
 
 .collectionBanner {
@@ -26,81 +26,137 @@ main {
 .cb-img {
     width: 910px;
     height: 100%;
-    background: #999;
+    /* background: #999; */
 }
 
 .cb-txt {
     width: 530px;
     height: 100%;
-    background: #888;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cb-txt h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#collection01 .cb-txt h1 {
+  color: #F48731;
+}
+#collection02 .cb-txt h1 {
+  color: #C2585E;
+}
+#collection03 .cb-txt h1 {
+  color: #405D5A;
+}
+
+#collection02 .cb-txt p {
+  font-size: 16px;
+}
+
+.cb-txt a {
+  margin-top: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #000;
 }
 
 .collectionSlide {
     width: 100%;
     height: 500px;
-    background: #d3d3d3;
+    /* background: #d3d3d3; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+.collectionSlide h1 {
+  font-size: 24px;
+  font-weight: 400;
 }
 
 /* slider */
 
-.swiper {
-    width: 100%;
-    height: 100%;
-    padding: 0 40px;
-  }
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  /* background-color: grey; */
+  padding: 20px 0;
+}
 
-  .pro-name {
-    position: absolute;
-    top: 320px;
-  }
-  .pro-price {
-    position: absolute;
-    top: 360px;
-  }
+.slide-content {
+  margin: 0 40px;
+}
 
+.card {
+  border-radius: 25px;
+  width: 320px;
+  background-color: #fff;
+}
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    position: relative;
+.img-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+}
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
+.img-content {
+  row-gap: 5px;
+  padding: 30px 0;
+}
 
-  .swiper-slide img {
-    position: absolute;
-    top: 10px;
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background: #fff;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+}
 
-  @media screen {
-    .swiper-slide img {
-        max-width: 70%;
-        max-height: 70%;
-    }
+.card-img {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  /* border: 1px solid blue; */
+}
 
-    .swiper-slide {
-        max-width: calc(100% / 3);
-        max-height: 500px;
-    }
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  z-index: 1;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 400;
+  color: #707070;
+  text-align: center;
+  z-index: 1;
+}
+
+.view-btn {
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 20px;
+  background-color: #333;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-btn:hover {
+  background: #666;
 }
