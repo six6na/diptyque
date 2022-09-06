@@ -29,11 +29,15 @@ main {
     width: 645px;
     /* height: 830px; */
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .product img {
-    width: 645px;
-    height: 645px;
+    width: 495px;
+    height: 495px;
     background: #eee;
 }
 
