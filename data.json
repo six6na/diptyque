@@ -40,5 +40,11 @@
         "name": "summer perfume5",
         "price": "93", 
         "imgUrl": "../images/product01.png"
+    },
+    {
+        "category": "perfume",
+        "name": "summer perfume5",
+        "price": "93", 
+        "imgUrl": "../images/product01.png"
     }
 ]
