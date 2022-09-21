@@ -1,0 +1,70 @@
+.productImgBanner {
+    width: 100%;
+    height: 600px;
+    background: url(../images/perfumeMainImg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.listTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.productList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    /* height: 830px; */
+    padding-bottom: 50px;
+}
+
+.product img {
+    width: 60%;
+    /* background: #eee; */
+}
+
+.p-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-title {
+    padding-bottom: 10px;
+}
+
+.type {
+    padding-bottom: 20px;
+}
+
+.detail {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.ex {
+    padding-top: 10px;
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}

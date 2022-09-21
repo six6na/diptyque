@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>diptyque_main</title>
+</head>
+<body>
+    <header class="container">
+        <div class="header-l">
+            <a href="#" class="toggleBtn">
+                <span class="top"></span>
+                <span class="mid"></span>
+                <span class="bottom"></span>
+            </a>
+        </div>
+        <a href="../index.html" class="logo"><img src="../images/logo.png" alt="diptyque logo"></a>
+        <div class="header-r">
+            <a href="#"><i class="bi bi-person-fill"></i></a>
+            <a href="#"><i class="bi bi-bag-fill"></i></a>
+        </div>
+    </header>
+
+    <nav class="toggleMenu">
+        <ul class="navi">
+            <li class="depth1">
+                <a href="./html/collection.html">SHOP</a>
+                <ul>
+                    <li class="depth2">
+                        <a href="./html/products.html">베스트</a>
+                    </li>
+                    <li class="depth2">
+                        <a href="#">향수</a>
+                    </li>
+                    <li class="depth2">
+                        <a href="#">캔들</a>
+                    </li>
+                    <li class="depth2">
+                        <a href="#">바디</a>
+                    </li>
+                    <li class="depth2">
+                        <a href="#">홈 데코</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="depth1">
+                <a href="./html/collection.html">COLLECTION</a>
+                <ul>
+                    <li class="depth2">
+                        <a href="./html/prepare.html">do son</a>
+                    </li>
+                    <li class="depth2">
+                        <a href="#">summer</a>
+                    </li>
+                    <li class="depth2">
+                        <a href="#">rose</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="depth1">
+                <a href="./html/prepare.html">ABOUT THE MANSION</a>
+                <ul>
+                    <li class="depth2">
+                        <a href="./html/prepare.html">brand story</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="depth1">
+                <a href="./html/prepare.html">STORES</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="diptyque">  
+        <div class="diptyqueInner">
+         <a href="/">
+            <img id="rotateLogo" src="./images/spinLogo.svg" alt="">
+        </a>   
+        </div>                                                  
+                    
+    </div>
+
+    <main class="container">
+        <a href="./html/main.html" class="home mainCont"><img src="./images/main-img1.png" alt="">Home</a>
+        <a href="./html/products.html" class="perfume mainCont">Perfume<img src="./images/main-img2.png" alt=""></a>
+        <a href="./html/prepare.html" class="best mainCont">Best<img src="./images/main-img3.png" alt=""></a>
+        <a href="./html/prepare.html" class="collection mainCont"><img src="./images/main-img4.png" alt="">Collection</a>
+        <a href="./html/prepare.html" class="candle mainCont">Candle<img src="./images/main-img5.png" alt=""></a>
+        <a href="./html/prepare.html" class="body mainCont"><img src="./images/main-img6.png" alt="">body</a>            
+    </main>   
+
+    <footer class="container">
+        <div class="footer-l">
+             <p>customer service</p>
+             <a href="tel:+1(833) 798-0845">+1(833) 798-0845</a>
+             <p>토, 일요일 및 공휴일 휴무</p>
+             <div class="legal">
+                <a href="#">이용약관</a>
+                <p>|</p>
+                <a href="#">개인정보 보호정책</a>
+             </div>
+        </div>
+        <div class="footer-r">
+            <div class="f-menu">
+                <div id="email">
+                    <p>SIGN UP TO OUR NEWSLETTER</p>
+                    <form>
+                        <input type="email" name="email" placeholder="e-mail" class="emailInput">
+                        <input type="submit" value="Sign Up" class="submitBtn">
+                    </form>
+                </div>
+                <div id="sns">
+                    <p>FOLLOW DIPTYQUE</p>
+                    <div class="sns-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+                <div id="country">
+                    <select name="country" id="countrySelect">
+                        <option value="Korea">Korea</option>
+                        <option value="Korea">Canada</option>
+                        <option value="Korea">France</option>
+                    </select>
+                </div>
+            </div>
+            <p class="copy">Copyright ©2018 Diptyque SAS, ALL RIGHTS RESERVED. </p>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        function scrollRotate() {
+        let image = document.getElementById("rotateLogo");
+	    image.style.transform = "rotate(" + window.pageYOffset/4 + "deg)";
+    }
+
+	window.addEventListener('scroll',scrollRotate);
+    </script>
+</body>
+</html>
