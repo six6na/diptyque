@@ -3,42 +3,36 @@
         "category": "candle",
         "name": "summer candle",
         "price": "45", 
-        "imgUrl": "/img/Rectangle 7.png"
+        "imgUrl": "../images/Rectangle 7.png"
     },
     {
         "category": "perfume",
         "name": "summer perfume",
         "price": "89", 
-        "imgUrl": "/img/product01.png"
+        "imgUrl": "../images/product01.png"
     },
     {
         "category": "candle",
         "name": "summer candle",
         "price": "46", 
-        "imgUrl": "/img/Rectangle 7.png"
+        "imgUrl": "../images/Rectangle 7.png"
     },
     {
         "category": "perfume",
         "name": "summer perfume2",
         "price": "93", 
-        "imgUrl": "/img/product01.png"
+        "imgUrl": "../images/product01.png"
     },
     {
         "category": "perfume",
         "name": "summer perfume3",
         "price": "93", 
-        "imgUrl": "/img/product01.png"
+        "imgUrl": "../images/product01.png"
     },
     {
         "category": "perfume",
         "name": "summer perfume4",
         "price": "93", 
-        "imgUrl": "/img/product01.png"
-    },
-    {
-        "category": "perfume",
-        "name": "summer perfume5",
-        "price": "93", 
-        "imgUrl": "/img/product01.png"
+        "imgUrl": "../images/product01.png"
     }
 ]
