@@ -1,38 +1,38 @@
 [
     {
+        "category": "perfume",
+        "name": "PHILOSYKOS EAU DE PARFUM",
+        "price": "205", 
+        "imgUrl": "../images/product01.png"
+    },
+    {
+        "category": "perfume",
+        "name": "TEMPO EAU DE PARFUM",
+        "price": "205", 
+        "imgUrl": "../images/product02.png"
+    },
+    {
         "category": "candle",
-        "name": "summer candle",
-        "price": "45", 
-        "imgUrl": "../images/Rectangle 7.png"
+        "name": "ORPHÉON EAU DE PARFUM",
+        "price": "205", 
+        "imgUrl": "../images/product03.png"
     },
     {
         "category": "perfume",
-        "name": "summer perfume",
-        "price": "89", 
-        "imgUrl": "../images/product01.png"
-    },
-    {
-        "category": "candle",
-        "name": "summer candle",
-        "price": "46", 
-        "imgUrl": "../images/Rectangle 7.png"
+        "name": "L’OMBRE DANS L’EAU EAU DE PARFUM",
+        "price": "205", 
+        "imgUrl": "../images/product04.png"
     },
     {
         "category": "perfume",
-        "name": "summer perfume2",
+        "name": "TAM DAO EAU DE PARFUM",
+        "price": "205", 
+        "imgUrl": "../images/product05.png"
+    },
+    {
+        "category": "perfume",
+        "name": "OUD PALAO EAU DE PARFUM",
         "price": "93", 
-        "imgUrl": "../images/product01.png"
-    },
-    {
-        "category": "perfume",
-        "name": "summer perfume3",
-        "price": "93", 
-        "imgUrl": "../images/product01.png"
-    },
-    {
-        "category": "perfume",
-        "name": "summer perfume4",
-        "price": "93", 
-        "imgUrl": "../images/product01.png"
+        "imgUrl": "../images/product06.png"
     }
 ]
